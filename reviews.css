@@ -1,0 +1,28 @@
+/*Отзывы*/
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    width: 5rem;
+    background-color: #FF7514;
+    border: none;
+    border-radius: 10px;
+    background-image: none;
+}
+
+.window-with-rew {
+    background-color: #FCE883;
+}
+
+h3 {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+h4 {
+    font-size: 16px;
+}
+
+.add-review {
+    background-color: #FCE883;
+}
+
+.map {
+    font-size: 20px;
+}

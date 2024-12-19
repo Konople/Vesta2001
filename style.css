@@ -1,0 +1,57 @@
+h1 {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 46px;
+}
+
+p {
+    margin: 0;
+}
+
+p, a {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+/*Шапка сайта*/
+header {
+    background-color: #FF7514;
+}
+
+.title-name p {
+    font-size: 24px;
+}
+
+.phone img {
+    width: 55px;
+    height: 55px;
+}
+
+.numbers p {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+
+/*Меню*/
+nav {
+    background-color: #FCE883;
+}
+
+.nav-link {
+    color: darkblue;
+}
+
+    .nav-link:hover {
+        color: black;
+    }
+
+
+/*Подвал сайта*/
+footer {
+    background-color: #FF7514;
+}
+
+.mefoot {
+    color: white;
+}

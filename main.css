@@ -1,0 +1,65 @@
+/*Блок с записью на консультацию*/
+.main {
+    background-image: url(assets/img/jpg/deal.jpg);
+    background-size: cover;
+    height: auto;
+}
+
+section p {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    color: blue;
+}
+
+.rec {
+    width: 25rem;
+    background-color: rgb(0, 140, 255);
+}
+
+form p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+input::placeholder {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 300;
+}
+
+.btn {
+    font-weight: 500;
+}
+
+.empty {
+    height: 3rem;
+}
+
+
+/*Спецпредложения*/
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: orange;
+}
+
+.sale_but, .sale_but:hover {
+    background-color: #FF7514;
+}
+
+
+
+/*Адаптивная вёрстка под мобильные устройства*/
+@media (max-width: 500px) {
+    .main {
+        background-image: url(assets/img/jpg/deal-very-small.jpg);
+    }
+}
+
+@media (min-width: 501px) and (max-width: 768px) {
+    .main {
+        background-image: url(assets/img/jpg/deal-small.jpg);
+    }
+}
